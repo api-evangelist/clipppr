@@ -1,7 +1,24 @@
 aid: clipppr
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clipppr.png
 name: ClippPR
-description: ClippPR is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: ClippPR (later rebranded Primeloop) was a startup that helped brands and PR agencies clip
+  and track their press coverage, measure the value of earned media, and re-engage audiences by turning
+  clicks on shared links into targeted relationships. Founded around 2011 in Las Vegas and part of 500
+  Startups' eighth (first San Francisco) accelerator batch, the company has since shut down. Its
+  primeloop.com domain is parked/for-sale, primeloop.co no longer resolves, and clipppr.com has been
+  taken over by an unrelated blog. No public API, developer portal, or OpenAPI was ever published; the
+  only surviving first-party surface is the company's GitHub organization.
 url: https://raw.githubusercontent.com/api-evangelist/clipppr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,22 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-operating-status: closed
+x-founders:
+- Kimberly Knoll
+- Mike Ciklin
+- Thomas Knoll
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Public Relations
+- Media Monitoring
+- Press Clipping
+- Marketing
+- Analytics
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
-- type: Website
-  url: https://primeloop.com
+- type: GitHubOrganization
+  url: https://github.com/clippPR
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/primeloop
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
