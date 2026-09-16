@@ -26,10 +26,10 @@ name: ClippPR
 description: ClippPR (later rebranded Primeloop) was a startup that helped brands and PR agencies clip
   and track their press coverage, measure the value of earned media, and re-engage audiences by turning
   clicks on shared links into targeted relationships. Founded around 2011 in Las Vegas and part of 500
-  Startups' eighth (first San Francisco) accelerator batch, the company has since shut down. Its
-  primeloop.com domain is parked/for-sale, primeloop.co no longer resolves, and clipppr.com has been
-  taken over by an unrelated blog. No public API, developer portal, or OpenAPI was ever published; the
-  only surviving first-party surface is the company's GitHub organization.
+  Startups' eighth (first San Francisco) accelerator batch, the company has since shut down. Its primeloop.com
+  domain is parked/for-sale, primeloop.co no longer resolves, and clipppr.com has been taken over by an
+  unrelated blog. No public API, developer portal, or OpenAPI was ever published; the only surviving first-party
+  surface is the company's GitHub organization.
 url: https://raw.githubusercontent.com/api-evangelist/clipppr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -44,7 +44,7 @@ x-founders:
 - Thomas Knoll
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-09-15'
 tags:
 - Company
 - Public Relations
@@ -69,3 +69,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-status: defunct
